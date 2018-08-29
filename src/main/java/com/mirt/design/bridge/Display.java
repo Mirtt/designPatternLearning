@@ -6,10 +6,10 @@ package com.mirt.design.bridge;
  * @author Zhang Yuqi
  * @date 2018/7/16
  */
-public class Dispaly {
+public class Display {
     private DisplayImpl impl;
 
-    public Dispaly(DisplayImpl impl) {
+    public Display(DisplayImpl impl) {
         this.impl = impl;
     }
 

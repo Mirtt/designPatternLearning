@@ -6,7 +6,7 @@ package com.mirt.design.bridge;
  * @author Zhang Yuqi
  * @date 2018/7/16
  */
-public class CountDisplay extends Dispaly {
+public class CountDisplay extends Display {
 
     public CountDisplay(DisplayImpl impl) {
         super(impl);

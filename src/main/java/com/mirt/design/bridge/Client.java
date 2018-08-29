@@ -10,8 +10,8 @@ package com.mirt.design.bridge;
  */
 public class Client {
     public static void main(String[] args) {
-        Dispaly d1 = new Dispaly(new StringDisplayImpl("hello,1"));
-        Dispaly d2 = new CountDisplay(new StringDisplayImpl("hello,2"));
+        Display d1 = new Display(new StringDisplayImpl("hello,1"));
+        Display d2 = new CountDisplay(new StringDisplayImpl("hello,2"));
         CountDisplay d3 = new CountDisplay(new StringDisplayImpl("hello,3"));
         d1.display();
         d2.display();

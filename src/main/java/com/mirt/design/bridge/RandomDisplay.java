@@ -8,7 +8,7 @@ import java.util.Random;
  * @author Zhang Yuqi
  * @date 2018/7/16
  */
-public class RandomDisplay extends Dispaly {
+public class RandomDisplay extends Display {
 
     public RandomDisplay(DisplayImpl impl) {
         super(impl);
