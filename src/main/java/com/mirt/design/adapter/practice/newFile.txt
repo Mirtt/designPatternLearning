@@ -1,0 +1,6 @@
+#Comments for file properties
+#Thu Jul 12 14:24:18 CST 2018
+xxx=111
+year=2018
+zzz=333
+yyy=222
