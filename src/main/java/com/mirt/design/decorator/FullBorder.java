@@ -27,7 +27,7 @@ public class FullBorder extends Border {
         if (row == 0) {
             return "+" + makeLine('-', display.getColumns()) + "+";
         } else if (row == display.getRows() + 1) {
-            return "|" + display.getRowText(row) + "|";
+            return "+" + makeLine('-', display.getColumns()) + "+";
         } else {
             return "|" + display.getRowText(row - 1) + "|";
         }
